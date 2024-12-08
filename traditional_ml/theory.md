@@ -10,9 +10,9 @@ Supervised learning algorithms use labeled data to learn a mapping from inputs $
 - **Concept**: Models a linear relationship between input variables and output.
 - **Mathematics**:
   
-  $$
-  y = Xw + \epsilon
-  $$
+$$
+y = Xw + \epsilon
+$$
 
   - $w$: Weight vector (parameters to be learned).
   - Optimization: Minimize Mean Squared Error (MSE).
