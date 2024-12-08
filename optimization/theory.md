@@ -11,9 +11,11 @@ Optimization is a key concept in machine learning and deep learning, as it forms
 ## **1. Basics of Optimization**
 ### **Concept**
 Optimization involves finding the best parameters $\theta$ for a function $f(\theta)$ to minimize (or maximize) its value:
+
 $$
 \theta^* = \arg\min_{\theta} f(\theta)
 $$
+
 Where $f(\theta)$ is typically the loss function in machine learning.
 
 ### **Applications in ML**
@@ -25,9 +27,11 @@ Where $f(\theta)$ is typically the loss function in machine learning.
 ## **2. Gradient Descent**
 ### **Concept**
 Gradient Descent is the most fundamental optimization algorithm in machine learning:
+
 $$
 \theta_{t+1} = \theta_t - \eta \nabla f(\theta_t)
 $$
+
 Where:
 - $\eta$: Learning rate.
 - $\nabla f(\theta_t)$: Gradient of the function at $\theta_t$.
@@ -54,9 +58,11 @@ Where:
 Beyond gradient descent, several advanced algorithms improve convergence and efficiency:
 1. **Momentum**:
    - Adds a velocity term to smooth updates:
+ - 
    $$
    v_t = \beta v_{t-1} + \nabla f(\theta_t), \quad \theta_{t+1} = \theta_t - \eta v_t
    $$
+
 2. **Adam**:
    - Combines momentum with adaptive learning rates.
 3. **RMSProp**:
@@ -95,9 +101,11 @@ Beyond gradient descent, several advanced algorithms improve convergence and eff
 Second-order optimization methods use the Hessian matrix to incorporate curvature information:
 1. **Newton’s Method**:
    - Updates parameters using second-order derivatives:
+ - 
    $$
    \theta_{t+1} = \theta_t - H^{-1} \nabla f(\theta_t)
    $$
+   
 2. **Quasi-Newton Methods**:
    - Approximate the Hessian for computational efficiency.
 

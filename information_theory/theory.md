@@ -6,6 +6,7 @@ Information theory provides the mathematical framework for understanding uncerta
 ## **1. Entropy**
 ### **Concept**
 Entropy measures the uncertainty or randomness in a probability distribution:
+
 $$
 H(X) = - \sum_{x \in X} P(x) \log P(x)
 $$
@@ -24,6 +25,7 @@ Where $P(x)$ is the probability of outcome $x$.
 ## **2. Cross-Entropy**
 ### **Concept**
 Cross-entropy measures the difference between two probability distributions $P$ and $Q$:
+
 $$
 H(P, Q) = - \sum_{x \in X} P(x) \log Q(x)
 $$
@@ -40,6 +42,7 @@ $$
 ## **3. KL Divergence**
 ### **Concept**
 KL divergence quantifies how much one probability distribution $Q$ differs from another $P$:
+
 $$
 D_{KL}(P \parallel Q) = \sum_{x \in X} P(x) \log \frac{P(x)}{Q(x)}
 $$
@@ -57,6 +60,7 @@ $$
 ## **4. Mutual Information**
 ### **Concept**
 Mutual information measures the amount of information one variable contains about another:
+
 $$
 I(X; Y) = H(X) - H(X \mid Y)
 $$
@@ -74,6 +78,7 @@ $$
 ## **5. Information Gain**
 ### **Concept**
 Information gain measures the reduction in entropy after splitting data based on a feature:
+
 $$
 IG(T, A) = H(T) - H(T \mid A)
 $$
@@ -91,6 +96,7 @@ $$
 ## **6. Channel Capacity**
 ### **Concept**
 Channel capacity is the maximum rate at which information can be transmitted reliably over a communication channel:
+
 $$
 C = \max_{P(X)} I(X; Y)
 $$

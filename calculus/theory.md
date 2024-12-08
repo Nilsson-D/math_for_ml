@@ -45,6 +45,7 @@ $$
 ## **3. Taylor Series Approximation**
 ### **Concept**
 - The **Taylor series** approximates a function around a point as a sum of its derivatives:
+  
 $$
 f(x) \approx f(a) + f'(a)(x-a) + \frac{f''(a)}{2!}(x-a)^2 + \cdots
 $$
@@ -64,6 +65,7 @@ $$
 ## **4. Hessians and Curvature**
 ### **Concept**
 - The **Hessian matrix** is a square matrix of second-order partial derivatives:
+  
 $$
 H = \begin{bmatrix}
 \frac{\partial^2 f}{\partial x_1^2} & \frac{\partial^2 f}{\partial x_1 \partial x_2} & \cdots \\
@@ -87,6 +89,7 @@ $$
 ## **5. Integration Examples**
 ### **Concept**
 - Integration is the reverse process of differentiation and is used to compute areas under curves or accumulate values:
+  
 $$
 F(x) = \int f(x) \, dx
 $$

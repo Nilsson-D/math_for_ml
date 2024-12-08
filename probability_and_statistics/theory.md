@@ -9,10 +9,13 @@ Probability and statistics are foundational to understanding uncertainty, modeli
 Probability quantifies the likelihood of events occurring. Key concepts include:
 - **Sample Space**: The set of all possible outcomes.
 - **Conditional Probability**:
+  
   $$
   P(A \mid B) = \frac{P(A \cap B)}{P(B)}
   $$
+
 - **Bayes' Theorem**:
+  
   $$
   P(A \mid B) = \frac{P(B \mid A) P(A)}{P(B)}
   $$
@@ -38,9 +41,11 @@ Probability distributions describe how probabilities are distributed over the po
 
 #### **Continuous Distributions**:
 - **Gaussian**:
+  
   $$
   f(x) = \frac{1}{\sqrt{2\pi\sigma^2}} e^{-\frac{(x-\mu)^2}{2\sigma^2}}
   $$
+
   - Widely used in ML for modeling data.
 - **Exponential**: Models time between events.
 
@@ -94,9 +99,11 @@ Hypothesis testing evaluates whether a hypothesis about a dataset is statistical
 ## **5. Bayesian Inference**
 ### **Concept**
 Bayesian inference updates probabilities as new evidence is observed:
+
 $$
 P(\theta \mid X) = \frac{P(X \mid \theta) P(\theta)}{P(X)}
 $$
+
 Where:
 - $P(\theta)$: Prior probability.
 - $P(X \mid \theta)$: Likelihood.
