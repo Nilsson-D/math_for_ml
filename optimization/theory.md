@@ -1,12 +1,7 @@
-Here’s the content for the `theory.md` file in the **optimization/** folder:
-
----
-
 # **Optimization in Machine Learning**
 
 Optimization is a key concept in machine learning and deep learning, as it forms the basis for training models by minimizing loss functions and improving performance. This folder explores the fundamental concepts and practical algorithms used for optimization in ML/DL.
 
----
 
 ## **1. Basics of Optimization**
 ### **Concept**
@@ -22,7 +17,7 @@ Where $f(\theta)$ is typically the loss function in machine learning.
 - Training machine learning models by minimizing loss functions (e.g., Mean Squared Error, Cross-Entropy Loss).
 - Finding optimal hyperparameters for better performance.
 
----
+
 
 ## **2. Gradient Descent**
 ### **Concept**
@@ -58,14 +53,14 @@ Where:
 Beyond gradient descent, several advanced algorithms improve convergence and efficiency:
 1. **Momentum**:
    - Adds a velocity term to smooth updates:
- - 
-   $$
-   v_t = \beta v_{t-1} + \nabla f(\theta_t), \quad \theta_{t+1} = \theta_t - \eta v_t
-   $$
 
-2. **Adam**:
+$$
+v_t = \beta v_{t-1} + \nabla f(\theta_t), \quad \theta_{t+1} = \theta_t - \eta v_t
+$$
+
+1. **Adam**:
    - Combines momentum with adaptive learning rates.
-3. **RMSProp**:
+2. **RMSProp**:
    - Scales the learning rate using a moving average of squared gradients.
 
 ### **Applications in ML**
@@ -101,11 +96,11 @@ Beyond gradient descent, several advanced algorithms improve convergence and eff
 Second-order optimization methods use the Hessian matrix to incorporate curvature information:
 1. **Newton’s Method**:
    - Updates parameters using second-order derivatives:
- - 
-   $$
-   \theta_{t+1} = \theta_t - H^{-1} \nabla f(\theta_t)
-   $$
-   
+
+$$
+\theta_{t+1} = \theta_t - H^{-1} \nabla f(\theta_t)
+$$
+
 2. **Quasi-Newton Methods**:
    - Approximate the Hessian for computational efficiency.
 
