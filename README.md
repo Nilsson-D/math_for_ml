@@ -33,4 +33,11 @@ This repository serves as a detailed guide to understanding the mathematical pri
    - Applications: Mutual information and variational autoencoders (VAEs).
    - Practical: Implement cross-entropy loss and analyze its role in classification tasks.
 
+7. **Traditional ML algorithms**
+   - linear, logistic regression, decision trees etc. 
+   - supervised, unsupervised
+   - regularization, bagging
+   - Application: prediction, clustering
+   - Practical: Implement different algorithms from scratch and with packages such as *sklearn* and apply to various datasets.
+
 And more to come ...
