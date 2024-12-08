@@ -10,6 +10,7 @@ Entropy measures the uncertainty or randomness in a probability distribution:
 $$
 H(X) = - \sum_{x \in X} P(x) \log P(x)
 $$
+
 Where $P(x)$ is the probability of outcome $x$.
 
 ### **Applications in ML**
