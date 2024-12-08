@@ -42,34 +42,34 @@ Activation functions introduce non-linearity, allowing the network to learn comp
 ### **Common Activation Functions**:
 1. **Sigmoid**:
    
-   $$
-   \sigma(x) = \frac{1}{1 + e^{-x}}
-   $$
+$$
+\sigma(x) = \frac{1}{1 + e^{-x}}
+$$
 
    - Maps input to a range of (0, 1).
    - Used in binary classification.
 
 2. **ReLU (Rectified Linear Unit)**:
    
-   $$
-   \text{ReLU}(x) = \max(0, x)
-   $$
+$$
+\text{ReLU}(x) = \max(0, x)
+$$
 
    - Efficient and avoids vanishing gradients.
 
 3. **Tanh**:
    
-   $$
-   \text{Tanh}(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}}
-   $$
+$$
+\text{Tanh}(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}}
+$$
 
    - Maps input to (-1, 1), centered around 0.
 
 4. **Softmax**:
    
-   $$
-   \text{Softmax}(x_i) = \frac{e^{x_i}}{\sum_{j=1}^n e^{x_j}}
-   $$
+$$
+\text{Softmax}(x_i) = \frac{e^{x_i}}{\sum_{j=1}^n e^{x_j}}
+$$
 
    - Used in multi-class classification.
 
@@ -134,18 +134,18 @@ Loss functions quantify the error between the predicted output and the true outp
 ### **Common Loss Functions**:
 1. **Mean Squared Error (MSE)**:
    
-   $$
-   \text{MSE} = \frac{1}{n} \sum_{i=1}^n (y_i - \hat{y}_i)^2
-   $$
+$$
+\text{MSE} = \frac{1}{n} \sum_{i=1}^n (y_i - \hat{y}_i)^2
+$$
 
    - Used for regression tasks.
 
 2. **Cross-Entropy Loss**:
    
-   $$
-   \text{Cross-Entropy} = - \sum_{i=1}^n y_i \log(\hat{y}_i)
-   $$
-   
+$$
+\text{Cross-Entropy} = - \sum_{i=1}^n y_i \log(\hat{y}_i)
+$$
+
    - Used for classification tasks.
 
 ### **Notebook: `loss_functions.ipynb`**
